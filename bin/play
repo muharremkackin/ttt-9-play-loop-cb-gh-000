@@ -18,3 +18,5 @@ while counter < 10
   apple[counter-1] = "apple #{counter}"
   counter += 1
 end
+
+puts apple
