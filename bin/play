@@ -11,12 +11,18 @@
 #
 #
 
-apple = []
+basket = []
 counter = 1;
 
 while counter <= 10
-  apple[counter-1] = "apple #{counter}"
+  basket[counter-1] = "apple #{counter}"
   counter += 1
 end
 
+apples_in_basket = basket.size
+apples_taken_out = 0
 
+while apples_taken_out < apples_in_basket
+  puts "Taking out #{basket[apples_taken_out]}"
+  apples_taken_out += 1
+end
