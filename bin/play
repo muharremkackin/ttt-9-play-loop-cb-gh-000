@@ -1,10 +1,21 @@
-#!/usr/bin/env ruby
+# #!/usr/bin/env ruby
+# 
+# require_relative "../lib/play"
+# 
+# board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+# 
+# puts "Welcome to Tic Tac Toe!"
+# display_board(board)
+# 
+# play(board)
+# 
+# 
 
-require_relative "../lib/play"
+apple = []
+counter = 1;
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+while counter < 10
+  apple[] = "apple #{counter}"
+  counter += 1
+end
 
-puts "Welcome to Tic Tac Toe!"
-display_board(board)
-
-play(board)
